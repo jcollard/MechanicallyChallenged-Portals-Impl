@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 247405859}
   - component: {fileID: 247405858}
   m_Layer: 7
-  m_Name: Portal Red (1)
+  m_Name: Back Portal Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -198,7 +198,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d526e01bf638bd48889532bf8f60d52, type: 2}
+  - {fileID: 2100000, guid: 0bbb540d551c4314199033df0d73ca36, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -524,14 +524,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593354050}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20372646, y: 0.67712295, z: -0.20372646, w: 0.67712295}
-  m_LocalPosition: {x: -5.63, y: 1.11, z: 2.06}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -4.23, y: 2.63, z: 2.06}
   m_LocalScale: {x: 0.2, y: 1, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 247405857}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 33.49, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,7 +902,7 @@ Transform:
   m_GameObject: {fileID: 1466502452}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.99, y: 0.02, z: 1.95}
+  m_LocalPosition: {x: -0.99, y: 1.14, z: 1.95}
   m_LocalScale: {x: 0.2, y: 1, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1240,14 +1240,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774080478}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: -0.5}
   m_LocalPosition: {x: -1.08, y: 2.67, z: 2.569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1232562650}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 90}
 --- !u!1 &2114107271
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,17 +32,7 @@ public class PortalController : MonoBehaviour
         Vector3 euler = other.transform.rotation.eulerAngles;
         
         Quaternion diff = PortalCollider.transform.rotation * ExitPoint.rotation;
-        
-        clone.transform.Rotate(transform.forward, 180);
-        clone.transform.Rotate(transform.up, 180);
-        clone.transform.Rotate(transform.right, 180);
-        
-        clone.transform.rotation =  diff * clone.transform.rotation;
-        
-        // euler.z -= exitEulers.x;
-        // euler.y += exitEulers.y;
-        
-        // clone.transform.rotation = Quaternion.Euler(euler);
+        clone.transform.rotation =  diff * clone.transform.rotation * Quaternion.Euler(180, 180, 180);
     }
 
     void OnTriggerExit(Collider other)
